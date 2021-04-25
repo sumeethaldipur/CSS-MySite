@@ -9,7 +9,7 @@ h1{
   color: #ff7b54;
   font-size: 6rem;
   margin: 50px auto 0 auto;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 h2{
@@ -53,18 +53,26 @@ hr{
   padding: 30px 0;
 }
 
-.top-cloud{
+.top-cloud-1{
   position: absolute;
   right: 400px;
   top: 75px;
 }
-.bottom-cloud{
+
+.top-cloud-2{
   position: absolute;
   left: 400px;
-  bottom: 350px;
+  top: 75px;
 }
 
-.bitmoji{
+.sun{
+  height: 200px;
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.wave{
   height: 200px;
 }
 
@@ -77,9 +85,12 @@ hr{
   float: right;
 }
 
+
 .mountain{
-  height: 400px;;
+  height: 500px;
+  width: 50%;
 }
+
 
 .subtitle{
   font-size: 1.5rem;
@@ -87,6 +98,7 @@ hr{
   font-weight: normal;
   text-decoration: underline;
   margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .skill-row{
@@ -171,4 +183,39 @@ hr{
 
 a:hover{
   color: #EAF6F6;
+}
+
+#pro{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  color: #ff7b54;
+  text-decoration: none;
+}
+
+#pro:hover{
+  color: #EAF6F6;
+}
+
+#home{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  color: #ff7b54;
+  text-decoration: none;
+}
+
+#home:hover{
+  color: #EAF6F6;
+}
+
+.face{
+  width: 150px;
+  position: absolute;
+  top: 10px;
+  right: 716.5px;
 }
