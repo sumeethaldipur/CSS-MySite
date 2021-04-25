@@ -193,6 +193,7 @@ a:hover{
   top: 30px;
   color: #ff7b54;
   text-decoration: none;
+  font-size: 20px;
 }
 
 #pro:hover{
@@ -205,8 +206,9 @@ a:hover{
   position: absolute;
   left: 100px;
   top: 30px;
-  color: #ff7b54;
+  color: #EAF6F6;
   text-decoration: none;
+  font-size: 20px;
 }
 
 #home:hover{
